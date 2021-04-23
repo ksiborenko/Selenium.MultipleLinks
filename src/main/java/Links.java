@@ -18,7 +18,6 @@ public class Links {
         System.out.println(links.size());
         WebElement footer = this.driver.findElement(By.xpath("//table[@class='gf-t']/tbody/tr/td[1]/ul"));
         List<WebElement> footerList = footer.findElements(By.tagName("a"));
-        
     }
 }
 
