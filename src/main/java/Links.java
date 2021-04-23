@@ -27,7 +27,6 @@ public class Links {
         for (WebElement webElement : footerList) {
             webElement.sendKeys(keys);
         }
-
         Set<String> urls = this.driver.getWindowHandles();
         Iterator<String> iterate = urls.iterator();
         while (iterate.hasNext()) {
